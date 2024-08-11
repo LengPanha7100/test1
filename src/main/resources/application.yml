@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: relationship
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 12345
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
